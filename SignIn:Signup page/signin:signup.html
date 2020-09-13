@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="css/login.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <title>Sign Up</title>
+    </head>
+    <body>
+        <div class="main">
+            <div class="container">
+                <div class="signup-content">
+        <form method="POST" id="signup-form" class="sign-up form">
+            <fieldset>
+                <legend><h1>Hope you have an amazing experience!</h1></legend>
+                <div class="container">
+                    <div class="row">
+                        <div class="form-group name1 col-md-6">
+                            <label for="exampleInputEmail1" class="formText">FIRST NAME:*</label>
+                            <input type="text" class="form-control" id="name" aria-describedby="emailHelp" name="muverName" required>
+                        </div>
+                
+                        <div class="form-group name2 col-md-6">
+                            <label for="exampleInputEmail1## Heading ##" class="formText">LAST NAME:*</label>
+                            <input type="text" class="form-control" id="name" aria-describedby="emailHelp" name="muverPhone" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+            <div class="form-group col-md-6">
+            <label for="email">ENTER YOUR EMAIL ADDRESS:</label><br>
+            <input type="email" id="email" name="email" placeholder="eg:john@gmail.com" class="form-control" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required><br></div>
+        <div class="form-group col-md-6">
+            <div class="form-check">SELECT YOUR GENDER:<br>
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" >
+                <label class="form-check-label" for="exampleRadios1">
+                  MALE
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                <label class="form-check-label" for="exampleRadios2">
+                  FEMALE
+                </label>
+              </div>
+              <div class="form-check ">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" >
+                <label class="form-check-label" for="exampleRadios3">
+                  OTHER
+                </label>
+              </div>
+        </div>
+        </div></div>
+            <div class="container">
+                <div class="row">
+            <div class="form-group col-md-6">
+                <label for="username">USERNAME:</label><br>
+                <input type="text" id="username" name="username" class="form-control" placeholder="eg:John7" required><br></div>
+            <div class="form-group col-md-6">
+            <label for="password">PASSWORD:</label><br>
+            <small>Password should be more than 8 characters with one uppercase,one lowercase and one numeric character.</small><br>
+            <input type="password" id="password" name="password" class="form-control" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required><br></div>
+             </div></div>
+            <div class="form-group">
+                <input type="submit" name="submit" id="submit" class="form-submit submit" value="Sign up"/>
+                <a href="#" class="submit-link submit">Sign in</a>
+            </div>
+            </fieldset>
+          </form>
+          </div>
+          </div>
+          </div>
+    </body>
+</html>
